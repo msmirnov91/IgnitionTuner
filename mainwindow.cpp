@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+/*#include "mainwindow.h"
 #include "qwt_plot_curve.h"
 #include "qwt_series_data.h"
 #include "ui_mainwindow.h"
@@ -17,3 +17,4 @@ MainWindow::MainWindow(QWidget *parent) :
 MainWindow::~MainWindow(){
     delete ui;
 }
+*/

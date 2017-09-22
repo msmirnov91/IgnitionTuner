@@ -5,9 +5,9 @@
 
 #include "model.h"
 #include "view.h"
-#include "abstractstoragestrategy.h"
-#include "testdatastoragestrategy.h"
-#include "firstversionstrategy.h"
+#include "StorageStrategy/abstractstoragestrategy.h"
+#include "StorageStrategy/testdatastoragestrategy.h"
+#include "StorageStrategy/firstversionstrategy.h"
 
 class Presenter : public QObject
 {

@@ -2,7 +2,7 @@
 #define FIRSTVERSIONSTRATEGY_H
 
 #include "abstractstoragestrategy.h"
-#include "intelhex.h"
+#include "HexParser/intelhex.h"
 
 class FirstVersionStrategy : public AbstractStorageStrategy
 {
