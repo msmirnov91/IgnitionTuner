@@ -77,6 +77,7 @@ int FirstVersionStrategy::readNextValueFromTable(){
         skipByte();
     }
 
+    // FIXME: may be problems here
     bool ok;
     return textFromTable.toInt(&ok, 16);
 }
